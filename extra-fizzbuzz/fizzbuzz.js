@@ -6,4 +6,7 @@ for(i = 0; i <= 100; i++){
     else if(i % 5 == 0) {
         document.write(`buzz <br>`)
     }
+    else if (i % 15 == 0){
+        document.write(`fizbuzz`)
+    }
 }
