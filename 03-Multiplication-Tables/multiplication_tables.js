@@ -4,7 +4,13 @@ x.forEach(function(y){
     document.write(y + '*' + 9+ '=' +y*9+ '<br>')
 })
 
-function multi9(num){
-    return num * 9
+
+
+function allTable(num){
+   for(i=1 ; i <= 9 ; i++){
+    
+    document.write(num + '*'+ i + '= ' + num*i + '<br>');
+   }
 }
-document.write(multi9(10))
+
+allTable(6);
