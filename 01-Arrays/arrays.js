@@ -11,3 +11,10 @@ var array = ["Banana", "Apples", "Oranges", "Blueberries"];
 
 // Sort the array in reverse order, i.e. ['a', 'c', 'b'] becomes ['b', 'c', 'a'])
 
+document.write(array [2])
+array.sort()
+array.push(' Kiwi')
+array.splice(0,1)
+array.splice(0,1)
+array.reverse()
+document.write(array)
